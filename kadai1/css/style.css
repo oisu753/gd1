@@ -1,0 +1,70 @@
+
+
+section{height: 100vh;
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center center;
+         scroll-snap-align: start;
+}
+
+.hero{background-image: url(../images/bakery\ 2\ 640.jpg);
+      text-align: center;
+      padding-top: 10vh;
+      color: aliceblue;
+      font-size: 2rem;
+      font-family: 'Shippori Mincho', serif;
+}
+
+.title{font-family: 'Lobster', cursive;
+    font-size: 90px;
+    margin-bottom: 2rem;
+}
+
+.menu{background-image: url(../images/menu\ 1_640.jpg);
+    text-align: center;
+    padding-top: 10vh;
+    color: aliceblue;
+}
+
+.wrapper{max-width: 300px;
+         width: 100%;
+         margin: 0 auto;
+         padding: 0 1rem;
+         display: flex;
+         align-items: center;
+         background-color: rgba(223, 65, 65, 0.6);
+         border-radius: 30px;
+}
+
+.menu-rist tr{
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    line-height: 2;
+    
+}
+
+.menu-rist td{
+    padding-left: 2rem;
+}
+
+.contact{background-image: url(../images/bakery\ 3\ 640.jpg);
+         text-align: center;
+         padding-top: 10vh;
+         color: rgb(161, 197, 229);
+         font-size: 25px;
+}
+
+.sns{font-size: 2rem;
+     margin-top: 2rem;
+}
+
+.container{overflow: auto;
+           scroll-snap-type: y mandatory;
+           height: 100vh;}
+
+
+@media(max-width:700px){
+    .title{
+        font-size: 4rem;
+    }
+}

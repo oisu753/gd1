@@ -47,14 +47,148 @@ section{height: 100vh;
     padding-left: 2rem;
 }
 
+.comment{background-image: url(../images/voice\ 1.jpg);
+         color: aliceblue;
+         background-color: chocolate;
+         background-blend-mode: soft-light;
+}
+
+.balloon1-left {
+    position: relative;
+    display: inline-block;
+    margin: 1.5em 0 1.5em 15px;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: #555;
+    font-size: 16px;
+    background: #FFF;
+    border: solid 3px #555;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  .balloon1-left:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -24px;
+    margin-top: -12px;
+    border: 12px solid transparent;
+    border-right: 12px solid #FFF;
+    z-index: 2;
+  }
+  
+  .balloon1-left:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    margin-top: -14px;
+    border: 14px solid transparent;
+    border-right: 14px solid #555;
+    z-index: 1;
+  }
+  
+  .balloon1-left p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .balloon2-right {
+    position: relative;
+    display: inline-block;
+    margin: 1.5em 15px 1.5em 0;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: #555;
+    font-size: 16px;
+    background: #FFF;
+    border: solid 3px #555;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  .balloon2-right:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -24px;
+    margin-top: -12px;
+    border: 12px solid transparent;
+    border-left: 12px solid #FFF;
+    z-index: 2;
+  }
+  
+  .balloon2-right:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    margin-top: -14px;
+    border: 14px solid transparent;
+    border-left: 14px solid #555;
+    z-index: 1;
+  }
+  
+  .balloon2-right p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .balloon3-left {
+    position: relative;
+    display: inline-block;
+    margin: 1.5em 0 1.5em 15px;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: #555;
+    font-size: 16px;
+    background: #FFF;
+    border: solid 3px #555;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  .balloon3-left:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -24px;
+    margin-top: -12px;
+    border: 12px solid transparent;
+    border-right: 12px solid #FFF;
+    z-index: 2;
+  }
+  
+  .balloon3-left:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    margin-top: -14px;
+    border: 14px solid transparent;
+    border-right: 14px solid #555;
+    z-index: 1;
+  }
+
+  .balloon3-left p {
+    margin: 0;
+    padding: 0;
+  }
+
 .contact{background-image: url(../images/bakery\ 3\ 640.jpg);
+   background-color: rgb(110, 80, 3);
+    background-blend-mode: soft-light;
          text-align: center;
          padding-top: 10vh;
-         color: rgb(161, 197, 229);
+         color: aliceblue;
          font-size: 25px;
 }
 
-.sns{font-size: 2rem;
+.sns{font-size: 3rem;
      margin-top: 2rem;
 }
 

@@ -55,13 +55,12 @@ section{height: 100vh;
 
 .balloon1-left {
     position: relative;
-    display: inline-block;
     margin: 1.5em 0 1.5em 15px;
-    padding: 7px 10px;
+    padding: 20px 30px;
     min-width: 120px;
-    max-width: 100%;
+    max-width: 63%;
     color: #555;
-    font-size: 16px;
+    font-size: 25px;
     background: #FFF;
     border: solid 3px #555;
     box-sizing: border-box;
@@ -97,13 +96,12 @@ section{height: 100vh;
 
   .balloon2-right {
     position: relative;
-    display: inline-block;
-    margin: 1.5em 15px 1.5em 0;
-    padding: 7px 10px;
+    margin: 0 20px 0 auto;
+    padding: 20px 30px;
     min-width: 120px;
-    max-width: 100%;
+    max-width: 55%;
     color: #555;
-    font-size: 16px;
+    font-size: 25px;
     background: #FFF;
     border: solid 3px #555;
     box-sizing: border-box;
@@ -139,13 +137,12 @@ section{height: 100vh;
 
   .balloon3-left {
     position: relative;
-    display: inline-block;
     margin: 1.5em 0 1.5em 15px;
-    padding: 7px 10px;
+    padding: 20px 30px;
     min-width: 120px;
-    max-width: 100%;
+    max-width: 50%;
     color: #555;
-    font-size: 16px;
+    font-size: 25px;
     background: #FFF;
     border: solid 3px #555;
     box-sizing: border-box;
@@ -175,48 +172,6 @@ section{height: 100vh;
   }
 
   .balloon3-left p {
-    margin: 0;
-    padding: 0;
-  }
-
-  .balloon4-right {
-    position: relative;
-    display: inline-block;
-    margin: 1.5em 15px 1.5em 0;
-    padding: 7px 10px;
-    min-width: 120px;
-    max-width: 100%;
-    color: #555;
-    font-size: 16px;
-    background: #FFF;
-    border: solid 3px #555;
-    box-sizing: border-box;
-    border-radius: 10px;
-  }
-  
-  .balloon4-right:before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    right: -24px;
-    margin-top: -12px;
-    border: 12px solid transparent;
-    border-left: 12px solid #FFF;
-    z-index: 2;
-  }
-  
-  .balloon4-right:after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    right: -30px;
-    margin-top: -14px;
-    border: 14px solid transparent;
-    border-left: 14px solid #555;
-    z-index: 1;
-  }
-  
-  .balloon4-right p {
     margin: 0;
     padding: 0;
   }
